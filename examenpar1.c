@@ -3,8 +3,8 @@
 #include <string.h>
 
 
-int corregirPalabras (FILE *textoEnt, FILE, *textoSal, )
-   char palabra [50]
+int corregirPalabras (FILE *textoEnt, FILE, *textoSal);
+   char palabra [50];
    int todaslaspalabrascorregidas = 0;
 {
  printf("Ingrese el texto de entrada: ");
@@ -23,4 +23,8 @@ fclose(textoEnt);
     return 0
 }
 
+int corregirPalabras(FILE *textoEnt, FILE, *textoSal)
+{
+    return 0;
+}
 
