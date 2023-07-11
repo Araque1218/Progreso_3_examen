@@ -3,15 +3,24 @@
 #include <string.h>
 
 
-int corregirPalabras (FILE *textoEntrada, FILE, *textoSalida,) 
+int corregirPalabras (FILE *textoEnt, FILE, *textoSal, )
    char palabra [50]
-   int todaslaspalabrascorregidas = 0
-
+   int todaslaspalabrascorregidas = 0;
+{
  printf("Ingrese el texto de entrada: ");
-    scanf("%s", nombretextoEntrada);
+    scanf("%s", nombretextoEnt);
 
 printf("Ingrese el texto de salida; ");
-    scanf("%s", nombretextoSalida);
+    scanf("%s", nombretextoSal);
 
+palabrasCorregidas = corregirPalabras (textoEnt, textoSal)
+
+printf("Se corrigieron %d palabras en total.\n", palabrasCorregidas);
+
+fclose(textoEnt);
+     fclose(textoSal);
+
+    return 0
+}
 
 
